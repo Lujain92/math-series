@@ -1,19 +1,15 @@
-LAB - Class xx
-Project: Project Name Here
-Author: Student/Group Name
-Links and Resources
-Link01
-Link02
-Setup
-.env requirements (where applicable)
-i.e.
+# LAB - Class 02
+Project: Math-series
+Author: Lujain Al-jarrah
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
-How to initialize/run your application (where applicable)
-e.g. python main.py
-How to use your library (where applicable)
-Tests
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+
+**How to initialize/run the application**
+
+* You must install the requirements in the requirements.txt file
+* python -m math_series.series -- To run the functions
+
+
+**How to use your library** 
+**Tests**
+*How do you run tests?
+pytest ot python -m pytest
