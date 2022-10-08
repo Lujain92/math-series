@@ -1,4 +1,4 @@
-import pytest
+import pytest # optional
 from math_series.series import fibonacci
 
 def test_one():
