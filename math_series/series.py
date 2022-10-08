@@ -1,10 +1,11 @@
 
 def fibonacci(num):
     '''
-list= [0, 1, 2, 3, 4, 5, 6, 7]
-fib()=[0, 1, 1, 2, 3, 5, 8, 13]
-
-#  '''
+     Is a numeric series starting with the integers 0 and 1. In this series, the next integer is 
+     determined by summing the previous two. This function takes one required argument.
+    num :int
+    return: int
+    '''
     final=0
     try:
         if int(num)==0:
@@ -16,27 +17,15 @@ fib()=[0, 1, 1, 2, 3, 5, 8, 13]
     except :
         return("please enter number")   
 
-#     if num ==0:
-#        return 0
-#     if num==1:
-#         return 1
-#     if num ==2:
-#       return fibonacci(num-2)+fibonacci(num-1)
-#     if num==3:
-#       return fibonacci(num-2)+fibonacci(num-1)
-#     if num==4:
-#       return fibonacci(num-2)+fibonacci(num-1)
-#     if num==5:
-#       return fibonacci(num-2)+fibonacci(num-1)
-#     if num==6:
-#       return fibonacci(num-2)+fibonacci(num-1)
+
 
 def lucas(num):
     '''
-list= [0, 1, 2, 3, 4, 5, 6, 7]
-luc()=[2, 1, 3, 4, 7, 11, 18, 29]
-
-#  '''
+   Is a numeric series starting with the integers 2 and 1. In this series, the next integer is 
+     determined by summing the previous two. This function takes one required argument.
+    num :int
+    return: int
+    '''
     final=0
     try:
         if int(num)==0:
@@ -51,6 +40,14 @@ luc()=[2, 1, 3, 4, 7, 11, 18, 29]
 
 
 def  sum_series(num,x=0,y=1):
+    '''
+Is a numeric series starting with the integers 0 and 1 by default if not spicified. In this series, the next integer is determined by summing the previous two.
+This function takes three arguments.
+*required num :int
+**optional x:int
+**optional y: int
+return :int
+    '''
     try:
   
         final=0
